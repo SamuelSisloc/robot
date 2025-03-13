@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0.1 (Python 3.12.3 on win32)" generated="2025-03-11T18:18:08.040835" rpa="false" schemaversion="5">
+<suite id="s1" name="Clientebrowser" source="C:\robot\cliente\test\clientebrowser.robot">
+<test id="s1-t1" name="Iniciar teste" line="6">
+<kw name="Abrir aplicação" owner="clientebrowser">
+<kw name="Open Browser" owner="Browser">
+<msg time="2025-03-11T18:18:09.446569" level="WARN">Open Browser is for quick experimentation and debugging only. Use New Page for production.</msg>
+<msg time="2025-03-11T18:18:09.447563" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\robot\\cliente\\test\\browser\\traces\\temp\\1eb97ed9-9ecf-4905-93e1-ebed8bd094a1"}</msg>
+<msg time="2025-03-11T18:18:09.500759" level="INFO">Starting Browser process C:\Program Files\Python312\Lib\site-packages\Browser\wrapper\index.js using port 64782</msg>
+<msg time="2025-03-11T18:18:09.500759" level="INFO">Node startup parameters: ['node', 'C:\\Program Files\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js', '64782']</msg>
+<msg time="2025-03-11T18:18:17.264016" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"C:\\robot\\cliente\\test\\browser\\traces\\temp\\1eb97ed9-9ecf-4905-93e1-ebed8bd094a1"}</msg>
+<msg time="2025-03-11T18:18:17.266456" level="INFO">{
+  "acceptDownloads": true,
+  "bypassCSP": true,
+  "forcedColors": "none",
+  "ignoreHTTPSErrors": false,
+  "javaScriptEnabled": true,
+  "offline": false,
+  "reducedMotion": "no-preference",
+  "serviceWorkers": "allow",
+  "viewport": {
+    "height": 720,
+    "width": 1280
+  }
+}</msg>
+<msg time="2025-03-11T18:18:17.289926" level="INFO">Successfully created context. </msg>
+<msg time="2025-03-11T18:18:17.289926" level="INFO">{'acceptDownloads': True, 'bypassCSP': True, 'forcedColors': 'none', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': {'height': 720, 'width': 1280}}</msg>
+<msg time="2025-03-11T18:18:20.611298" level="INFO">Successfully initialized new page object and opened url: https://irental-qa.app.sisloc.com/login?redirect=/&amp;message</msg>
+<arg>https://irental-qa.app.sisloc.com/login?redirect=/&amp;message</arg>
+<arg>chromium</arg>
+<arg>headless=False</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Opens a new browser instance. Use this keyword for quick experiments or debugging sessions.</doc>
+<status status="PASS" start="2025-03-11T18:18:09.445603" elapsed="11.165695"/>
+</kw>
+<kw name="Set Viewport Size" owner="Browser">
+<msg time="2025-03-11T18:18:20.689189" level="INFO">Set viewport size to: [object Object]</msg>
+<arg>1366</arg>
+<arg>768</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Sets current Pages viewport size to specified dimensions.</doc>
+<status status="PASS" start="2025-03-11T18:18:20.612308" elapsed="0.076881"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2025-03-11T18:18:20.690186" level="INFO">Fills the text 'samuel.silva@sisloc.com.br' in the given field.</msg>
+<arg>//*[@name="email"]</arg>
+<arg>samuel.silva@sisloc.com.br</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2025-03-11T18:18:20.689189" elapsed="0.066315"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2025-03-11T18:18:20.756504" level="INFO">Fills the text '@Siloc00*' in the given field.</msg>
+<arg>//*[@name="password"]</arg>
+<arg>@Siloc00*</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2025-03-11T18:18:20.755504" elapsed="0.024594"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2025-03-11T18:18:20.781357" level="INFO">Clicks the element '//*[@class="block"]'.</msg>
+<arg>//*[@class="block"]</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-11T18:18:20.780098" elapsed="0.359116"/>
+</kw>
+<status status="PASS" start="2025-03-11T18:18:09.444562" elapsed="11.695666"/>
+</kw>
+<kw name="Criar Cliente" owner="clientebrowser">
+<kw name="Click" owner="Browser">
+<msg time="2025-03-11T18:18:21.142567" level="INFO">Clicks the element 'css=#quick-actions &gt; div &gt; a:nth-child(2) &gt; i'.</msg>
+<arg>css=#quick-actions &gt; div &gt; a:nth-child(2) &gt; i</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-11T18:18:21.141597" elapsed="0.953024"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2025-03-11T18:18:22.095623" level="INFO">Clicks the element '//*[@aria-label='PF (Pessoa Física)']'.</msg>
+<arg>//*[@aria-label='PF (Pessoa Física)']</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-11T18:18:22.094621" elapsed="0.992374"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2025-03-11T18:18:23.088007" level="INFO">Fills the text '975.791.774-55' in the given field.</msg>
+<arg>//*[@aria-label='CPF']</arg>
+<arg>975.791.774-55</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2025-03-11T18:18:23.088007" elapsed="0.019254"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2025-03-11T18:18:23.109256" level="INFO">Fills the text 'César Luís Viana' in the given field.</msg>
+<arg>//*[@aria-label='Nome*']</arg>
+<arg>César Luís Viana</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2025-03-11T18:18:23.107261" elapsed="0.027987"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2025-03-11T18:18:23.137585" level="INFO">Fills the text 'Cesar' in the given field.</msg>
+<arg>//*[@aria-label='Apelido']</arg>
+<arg>Cesar</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2025-03-11T18:18:23.135248" elapsed="0.027641"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2025-03-11T18:18:23.162889" level="INFO">Fills the text 'cesar.luis.viana@hidracom.com.br' in the given field.</msg>
+<arg>//*[@aria-label='E-mail']</arg>
+<arg>cesar.luis.viana@hidracom.com.br</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2025-03-11T18:18:23.162889" elapsed="0.029117"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2025-03-11T18:18:23.193012" level="INFO">Fills the text '(63) 98900-5944' in the given field.</msg>
+<arg>//*[@aria-label='Telefone*']</arg>
+<arg>(63) 98900-5944</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2025-03-11T18:18:23.193012" elapsed="0.023937"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2025-03-11T18:18:23.216949" level="INFO">Clicks the element '//button[.//span[text()='Adicionar endereço']]'.</msg>
+<arg>//button[.//span[text()='Adicionar endereço']]</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-11T18:18:23.216949" elapsed="0.103548"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2025-03-11T18:18:23.322898" level="INFO">Fills the text 'Teste endereço' in the given field.</msg>
+<arg>//*[@aria-label='Apelido do Endereço']</arg>
+<arg>Teste endereço</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2025-03-11T18:18:23.321880" elapsed="0.061369"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2025-03-11T18:18:23.384263" level="INFO">Fills the text '77020-010' in the given field.</msg>
+<arg>//*[@aria-label='CEP']</arg>
+<arg>77020-010</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2025-03-11T18:18:23.383249" elapsed="0.032236"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2025-03-11T18:18:23.416486" level="INFO">Fills the text '104 Sul Rua SE 1' in the given field.</msg>
+<arg>//*[@aria-label='Rua, Avenida ou Praça *']</arg>
+<arg>104 Sul Rua SE 1</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2025-03-11T18:18:23.415485" elapsed="0.032257"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2025-03-11T18:18:23.449253" level="INFO">Fills the text '100' in the given field.</msg>
+<arg>//*[@aria-label='Número']</arg>
+<arg>100</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2025-03-11T18:18:23.447742" elapsed="0.028975"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2025-03-11T18:18:23.477705" level="INFO">Fills the text 'Casa' in the given field.</msg>
+<arg>//*[@aria-label='Complemento']</arg>
+<arg>Casa</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2025-03-11T18:18:23.476717" elapsed="0.033746"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2025-03-11T18:18:23.511453" level="INFO">Fills the text 'Plano Diretor Sul' in the given field.</msg>
+<arg>//*[@aria-label='Bairro']</arg>
+<arg>Plano Diretor Sul</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2025-03-11T18:18:23.510463" elapsed="0.041095"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2025-03-11T18:18:23.554570" level="INFO">Fills the text 'Palmas' in the given field.</msg>
+<arg>//*[@aria-label='Selecione a cidade']</arg>
+<arg>Palmas</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2025-03-11T18:18:23.551558" elapsed="0.032037"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2025-03-11T18:18:23.585610" level="INFO">Clicks the element '//*[@aria-label='Selecione a cidade']'.</msg>
+<arg>//*[@aria-label='Selecione a cidade']</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-11T18:18:23.584606" elapsed="0.077245"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2025-03-11T18:18:23.663296" level="INFO">Fills the text 'Teste' in the given field.</msg>
+<arg>//*[@aria-label='Referência']</arg>
+<arg>Teste</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2025-03-11T18:18:23.661851" elapsed="0.034235"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2025-03-11T18:18:23.697083" level="INFO">Clicks the element 'text=confirmar'.</msg>
+<arg>text=confirmar</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-11T18:18:23.696086" elapsed="0.069637"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2025-03-11T18:18:23.767324" level="INFO">Clicks the element '//button[.//span[text()='Adicionar contato']]'.</msg>
+<arg>//button[.//span[text()='Adicionar contato']]</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-11T18:18:23.765723" elapsed="1.585346"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2025-03-11T18:18:25.352240" level="INFO">Fills the text 'teste 1' in the given field.</msg>
+<arg>//*[@aria-label='Contato']</arg>
+<arg>teste 1</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2025-03-11T18:18:25.351069" elapsed="0.017275"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2025-03-11T18:18:25.369342" level="INFO">Fills the text 'cesar.luis.viana@hidracom.com.br' in the given field.</msg>
+<arg>//*[@class='full-width']//*[@aria-label='E-mail']</arg>
+<arg>cesar.luis.viana@hidracom.com.br</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2025-03-11T18:18:25.368344" elapsed="0.021949"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2025-03-11T18:18:25.391362" level="INFO">Fills the text '(63) 98900-5944' in the given field.</msg>
+<arg>//*[@aria-label='Celular']</arg>
+<arg>(63) 98900-5944</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2025-03-11T18:18:25.391362" elapsed="0.026420"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2025-03-11T18:18:25.417782" level="INFO">Fills the text '(63) 3215-5944' in the given field.</msg>
+<arg>//*[@aria-label='Telefone']</arg>
+<arg>(63) 3215-5944</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2025-03-11T18:18:25.417782" elapsed="0.060550"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2025-03-11T18:18:25.479832" level="INFO">Fills the text '10' in the given field.</msg>
+<arg>//*[@aria-label='Ramal']</arg>
+<arg>10</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2025-03-11T18:18:25.479323" elapsed="0.026958"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2025-03-11T18:18:25.507286" level="INFO">Clicks the element '//*[@class='q-checkbox__svg fit absolute-full']'.</msg>
+<arg>//*[@class='q-checkbox__svg fit absolute-full']</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-11T18:18:25.507286" elapsed="0.046281"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2025-03-11T18:18:25.554657" level="INFO">Fills the text '78372704278' in the given field.</msg>
+<arg>//*[@aria-label='CNH']</arg>
+<arg>78372704278</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2025-03-11T18:18:25.553567" elapsed="0.023223"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2025-03-11T18:18:25.578008" level="INFO">Fills the text '01/01/2030' in the given field.</msg>
+<arg>//*[@aria-label='Validade']</arg>
+<arg>01/01/2030</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2025-03-11T18:18:25.578008" elapsed="0.035257"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2025-03-11T18:18:25.615284" level="INFO">Fills the text '30.996.954-2' in the given field.</msg>
+<arg>//*[@aria-label='RG']</arg>
+<arg>30.996.954-2</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2025-03-11T18:18:25.613265" elapsed="0.029567"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2025-03-11T18:18:25.643840" level="INFO">Fills the text 'SSP' in the given field.</msg>
+<arg>//*[@aria-label='Orgão emissor']</arg>
+<arg>SSP</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2025-03-11T18:18:25.642832" elapsed="0.022142"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2025-03-11T18:18:25.666974" level="INFO">Clicks the element '//*[@role='radio']//span[text()='Cliente']'.</msg>
+<arg>//*[@role='radio']//span[text()='Cliente']</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-11T18:18:25.665973" elapsed="0.112241"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2025-03-11T18:18:25.778214" level="INFO">Fills the text 'teste teste teste' in the given field.</msg>
+<arg>//textarea[@class="q-field__native q-placeholder"]</arg>
+<arg>teste teste teste</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2025-03-11T18:18:25.778214" elapsed="0.017296"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2025-03-11T18:18:25.797689" level="INFO">Clicks the element 'text=Salvar'.</msg>
+<arg>text=Salvar</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-11T18:18:25.796677" elapsed="0.084065"/>
+</kw>
+<status status="PASS" start="2025-03-11T18:18:21.140228" elapsed="4.740514"/>
+</kw>
+<status status="PASS" start="2025-03-11T18:18:09.443564" elapsed="16.437178"/>
+</test>
+<doc>Cadastro de cliente com bibliteca Browser</doc>
+<status status="PASS" start="2025-03-11T18:18:08.044435" elapsed="17.925702"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Clientebrowser">Clientebrowser</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2025-03-11T18:18:09.446569" level="WARN">Open Browser is for quick experimentation and debugging only. Use New Page for production.</msg>
+</errors>
+</robot>

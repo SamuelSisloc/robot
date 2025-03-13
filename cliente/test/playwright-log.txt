@@ -1,0 +1,143 @@
+{"level":30,"time":"2025-03-11T21:18:14.810Z","pid":30324,"hostname":"QUAN02","msg":"Listening on 64782"}
+(node:30324) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2025-03-11T21:18:15.234Z","pid":30324,"hostname":"QUAN02","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-03-11T21:18:17.262Z","pid":30324,"hostname":"QUAN02","msg":"Adding browser to stack: chromium, version: 133.0.6943.16"}
+{"level":30,"time":"2025-03-11T21:18:17.262Z","pid":30324,"hostname":"QUAN02","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-03-11T21:18:17.262Z","pid":30324,"hostname":"QUAN02","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-03-11T21:18:17.270Z","pid":30324,"hostname":"QUAN02","msg":"Start of node method newContext"}
+{"level":30,"time":"2025-03-11T21:18:17.271Z","pid":30324,"hostname":"QUAN02","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":true,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"height\":720,\"width\":1280}}"}
+{"level":30,"time":"2025-03-11T21:18:17.271Z","pid":30324,"hostname":"QUAN02","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-03-11T21:18:17.271Z","pid":30324,"hostname":"QUAN02","msg":"Trace file: "}
+{"level":30,"time":"2025-03-11T21:18:17.285Z","pid":30324,"hostname":"QUAN02","msg":"Changed active context"}
+{"level":30,"time":"2025-03-11T21:18:17.285Z","pid":30324,"hostname":"QUAN02","msg":"End of node method newContext"}
+{"level":30,"time":"2025-03-11T21:18:17.292Z","pid":30324,"hostname":"QUAN02","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-03-11T21:18:17.292Z","pid":30324,"hostname":"QUAN02","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-03-11T21:18:17.621Z","pid":30324,"hostname":"QUAN02","msg":"Video path: undefined"}
+{"level":30,"time":"2025-03-11T21:18:17.621Z","pid":30324,"hostname":"QUAN02","msg":"Changed active page"}
+{"level":30,"time":"2025-03-11T21:18:20.607Z","pid":30324,"hostname":"QUAN02","msg":"End of node method newPage"}
+{"level":30,"time":"2025-03-11T21:18:20.617Z","pid":30324,"hostname":"QUAN02","msg":"Start of node method setViewportSize"}
+{"level":30,"time":"2025-03-11T21:18:20.682Z","pid":30324,"hostname":"QUAN02","msg":"End of node method setViewportSize"}
+{"level":30,"time":"2025-03-11T21:18:20.694Z","pid":30324,"hostname":"QUAN02","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-03-11T21:18:20.695Z","pid":30324,"hostname":"QUAN02","msg":"Strict mode is enabled, find Locator with //*[@name=\"email\"] in page."}
+{"level":30,"time":"2025-03-11T21:18:20.753Z","pid":30324,"hostname":"QUAN02","msg":"End of node method fillText"}
+{"level":30,"time":"2025-03-11T21:18:20.757Z","pid":30324,"hostname":"QUAN02","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-03-11T21:18:20.758Z","pid":30324,"hostname":"QUAN02","msg":"Strict mode is enabled, find Locator with //*[@name=\"password\"] in page."}
+{"level":30,"time":"2025-03-11T21:18:20.777Z","pid":30324,"hostname":"QUAN02","msg":"End of node method fillText"}
+{"level":30,"time":"2025-03-11T21:18:20.783Z","pid":30324,"hostname":"QUAN02","msg":"Start of node method click"}
+{"level":30,"time":"2025-03-11T21:18:20.784Z","pid":30324,"hostname":"QUAN02","msg":"Strict mode is enabled, find Locator with //*[@class=\"block\"] in page."}
+{"level":30,"time":"2025-03-11T21:18:21.138Z","pid":30324,"hostname":"QUAN02","msg":"End of node method click"}
+{"level":30,"time":"2025-03-11T21:18:21.144Z","pid":30324,"hostname":"QUAN02","msg":"Start of node method click"}
+{"level":30,"time":"2025-03-11T21:18:21.144Z","pid":30324,"hostname":"QUAN02","msg":"Strict mode is enabled, find Locator with css=#quick-actions > div > a:nth-child(2) > i in page."}
+{"level":30,"time":"2025-03-11T21:18:22.092Z","pid":30324,"hostname":"QUAN02","msg":"End of node method click"}
+{"level":30,"time":"2025-03-11T21:18:22.096Z","pid":30324,"hostname":"QUAN02","msg":"Start of node method click"}
+{"level":30,"time":"2025-03-11T21:18:22.096Z","pid":30324,"hostname":"QUAN02","msg":"Strict mode is enabled, find Locator with //*[@aria-label='PF (Pessoa Física)'] in page."}
+{"level":30,"time":"2025-03-11T21:18:23.084Z","pid":30324,"hostname":"QUAN02","msg":"End of node method click"}
+{"level":30,"time":"2025-03-11T21:18:23.090Z","pid":30324,"hostname":"QUAN02","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-03-11T21:18:23.090Z","pid":30324,"hostname":"QUAN02","msg":"Strict mode is enabled, find Locator with //*[@aria-label='CPF'] in page."}
+{"level":30,"time":"2025-03-11T21:18:23.104Z","pid":30324,"hostname":"QUAN02","msg":"End of node method fillText"}
+{"level":30,"time":"2025-03-11T21:18:23.110Z","pid":30324,"hostname":"QUAN02","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-03-11T21:18:23.111Z","pid":30324,"hostname":"QUAN02","msg":"Strict mode is enabled, find Locator with //*[@aria-label='Nome*'] in page."}
+{"level":30,"time":"2025-03-11T21:18:23.133Z","pid":30324,"hostname":"QUAN02","msg":"End of node method fillText"}
+{"level":30,"time":"2025-03-11T21:18:23.139Z","pid":30324,"hostname":"QUAN02","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-03-11T21:18:23.140Z","pid":30324,"hostname":"QUAN02","msg":"Strict mode is enabled, find Locator with //*[@aria-label='Apelido'] in page."}
+{"level":30,"time":"2025-03-11T21:18:23.160Z","pid":30324,"hostname":"QUAN02","msg":"End of node method fillText"}
+{"level":30,"time":"2025-03-11T21:18:23.165Z","pid":30324,"hostname":"QUAN02","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-03-11T21:18:23.165Z","pid":30324,"hostname":"QUAN02","msg":"Strict mode is enabled, find Locator with //*[@aria-label='E-mail'] in page."}
+{"level":30,"time":"2025-03-11T21:18:23.190Z","pid":30324,"hostname":"QUAN02","msg":"End of node method fillText"}
+{"level":30,"time":"2025-03-11T21:18:23.195Z","pid":30324,"hostname":"QUAN02","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-03-11T21:18:23.195Z","pid":30324,"hostname":"QUAN02","msg":"Strict mode is enabled, find Locator with //*[@aria-label='Telefone*'] in page."}
+{"level":30,"time":"2025-03-11T21:18:23.215Z","pid":30324,"hostname":"QUAN02","msg":"End of node method fillText"}
+{"level":30,"time":"2025-03-11T21:18:23.220Z","pid":30324,"hostname":"QUAN02","msg":"Start of node method click"}
+{"level":30,"time":"2025-03-11T21:18:23.220Z","pid":30324,"hostname":"QUAN02","msg":"Strict mode is enabled, find Locator with //button[.//span[text()='Adicionar endereço']] in page."}
+{"level":30,"time":"2025-03-11T21:18:23.319Z","pid":30324,"hostname":"QUAN02","msg":"End of node method click"}
+{"level":30,"time":"2025-03-11T21:18:23.323Z","pid":30324,"hostname":"QUAN02","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-03-11T21:18:23.323Z","pid":30324,"hostname":"QUAN02","msg":"Strict mode is enabled, find Locator with //*[@aria-label='Apelido do Endereço'] in page."}
+{"level":30,"time":"2025-03-11T21:18:23.380Z","pid":30324,"hostname":"QUAN02","msg":"End of node method fillText"}
+{"level":30,"time":"2025-03-11T21:18:23.387Z","pid":30324,"hostname":"QUAN02","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-03-11T21:18:23.387Z","pid":30324,"hostname":"QUAN02","msg":"Strict mode is enabled, find Locator with //*[@aria-label='CEP'] in page."}
+{"level":30,"time":"2025-03-11T21:18:23.413Z","pid":30324,"hostname":"QUAN02","msg":"End of node method fillText"}
+{"level":30,"time":"2025-03-11T21:18:23.418Z","pid":30324,"hostname":"QUAN02","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-03-11T21:18:23.418Z","pid":30324,"hostname":"QUAN02","msg":"Strict mode is enabled, find Locator with //*[@aria-label='Rua, Avenida ou Praça *'] in page."}
+{"level":30,"time":"2025-03-11T21:18:23.446Z","pid":30324,"hostname":"QUAN02","msg":"End of node method fillText"}
+{"level":30,"time":"2025-03-11T21:18:23.450Z","pid":30324,"hostname":"QUAN02","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-03-11T21:18:23.451Z","pid":30324,"hostname":"QUAN02","msg":"Strict mode is enabled, find Locator with //*[@aria-label='Número'] in page."}
+{"level":30,"time":"2025-03-11T21:18:23.473Z","pid":30324,"hostname":"QUAN02","msg":"End of node method fillText"}
+{"level":30,"time":"2025-03-11T21:18:23.479Z","pid":30324,"hostname":"QUAN02","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-03-11T21:18:23.480Z","pid":30324,"hostname":"QUAN02","msg":"Strict mode is enabled, find Locator with //*[@aria-label='Complemento'] in page."}
+{"level":30,"time":"2025-03-11T21:18:23.506Z","pid":30324,"hostname":"QUAN02","msg":"End of node method fillText"}
+{"level":30,"time":"2025-03-11T21:18:23.513Z","pid":30324,"hostname":"QUAN02","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-03-11T21:18:23.513Z","pid":30324,"hostname":"QUAN02","msg":"Strict mode is enabled, find Locator with //*[@aria-label='Bairro'] in page."}
+{"level":30,"time":"2025-03-11T21:18:23.547Z","pid":30324,"hostname":"QUAN02","msg":"End of node method fillText"}
+{"level":30,"time":"2025-03-11T21:18:23.557Z","pid":30324,"hostname":"QUAN02","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-03-11T21:18:23.557Z","pid":30324,"hostname":"QUAN02","msg":"Strict mode is enabled, find Locator with //*[@aria-label='Selecione a cidade'] in page."}
+{"level":30,"time":"2025-03-11T21:18:23.582Z","pid":30324,"hostname":"QUAN02","msg":"End of node method fillText"}
+{"level":30,"time":"2025-03-11T21:18:23.592Z","pid":30324,"hostname":"QUAN02","msg":"Start of node method click"}
+{"level":30,"time":"2025-03-11T21:18:23.592Z","pid":30324,"hostname":"QUAN02","msg":"Strict mode is enabled, find Locator with //*[@aria-label='Selecione a cidade'] in page."}
+{"level":30,"time":"2025-03-11T21:18:23.661Z","pid":30324,"hostname":"QUAN02","msg":"End of node method click"}
+{"level":30,"time":"2025-03-11T21:18:23.664Z","pid":30324,"hostname":"QUAN02","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-03-11T21:18:23.664Z","pid":30324,"hostname":"QUAN02","msg":"Strict mode is enabled, find Locator with //*[@aria-label='Referência'] in page."}
+{"level":30,"time":"2025-03-11T21:18:23.694Z","pid":30324,"hostname":"QUAN02","msg":"End of node method fillText"}
+{"level":30,"time":"2025-03-11T21:18:23.698Z","pid":30324,"hostname":"QUAN02","msg":"Start of node method click"}
+{"level":30,"time":"2025-03-11T21:18:23.698Z","pid":30324,"hostname":"QUAN02","msg":"Strict mode is enabled, find Locator with text=confirmar in page."}
+{"level":30,"time":"2025-03-11T21:18:23.764Z","pid":30324,"hostname":"QUAN02","msg":"End of node method click"}
+{"level":30,"time":"2025-03-11T21:18:23.767Z","pid":30324,"hostname":"QUAN02","msg":"Start of node method click"}
+{"level":30,"time":"2025-03-11T21:18:23.767Z","pid":30324,"hostname":"QUAN02","msg":"Strict mode is enabled, find Locator with //button[.//span[text()='Adicionar contato']] in page."}
+{"level":30,"time":"2025-03-11T21:18:25.349Z","pid":30324,"hostname":"QUAN02","msg":"End of node method click"}
+{"level":30,"time":"2025-03-11T21:18:25.353Z","pid":30324,"hostname":"QUAN02","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-03-11T21:18:25.353Z","pid":30324,"hostname":"QUAN02","msg":"Strict mode is enabled, find Locator with //*[@aria-label='Contato'] in page."}
+{"level":30,"time":"2025-03-11T21:18:25.367Z","pid":30324,"hostname":"QUAN02","msg":"End of node method fillText"}
+{"level":30,"time":"2025-03-11T21:18:25.371Z","pid":30324,"hostname":"QUAN02","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-03-11T21:18:25.371Z","pid":30324,"hostname":"QUAN02","msg":"Strict mode is enabled, find Locator with //*[@class='full-width']//*[@aria-label='E-mail'] in page."}
+{"level":30,"time":"2025-03-11T21:18:25.388Z","pid":30324,"hostname":"QUAN02","msg":"End of node method fillText"}
+{"level":30,"time":"2025-03-11T21:18:25.393Z","pid":30324,"hostname":"QUAN02","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-03-11T21:18:25.393Z","pid":30324,"hostname":"QUAN02","msg":"Strict mode is enabled, find Locator with //*[@aria-label='Celular'] in page."}
+{"level":30,"time":"2025-03-11T21:18:25.415Z","pid":30324,"hostname":"QUAN02","msg":"End of node method fillText"}
+{"level":30,"time":"2025-03-11T21:18:25.420Z","pid":30324,"hostname":"QUAN02","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-03-11T21:18:25.421Z","pid":30324,"hostname":"QUAN02","msg":"Strict mode is enabled, find Locator with //*[@aria-label='Telefone'] in page."}
+{"level":30,"time":"2025-03-11T21:18:25.476Z","pid":30324,"hostname":"QUAN02","msg":"End of node method fillText"}
+{"level":30,"time":"2025-03-11T21:18:25.480Z","pid":30324,"hostname":"QUAN02","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-03-11T21:18:25.480Z","pid":30324,"hostname":"QUAN02","msg":"Strict mode is enabled, find Locator with //*[@aria-label='Ramal'] in page."}
+{"level":30,"time":"2025-03-11T21:18:25.504Z","pid":30324,"hostname":"QUAN02","msg":"End of node method fillText"}
+{"level":30,"time":"2025-03-11T21:18:25.508Z","pid":30324,"hostname":"QUAN02","msg":"Start of node method click"}
+{"level":30,"time":"2025-03-11T21:18:25.508Z","pid":30324,"hostname":"QUAN02","msg":"Strict mode is enabled, find Locator with //*[@class='q-checkbox__svg fit absolute-full'] in page."}
+{"level":30,"time":"2025-03-11T21:18:25.551Z","pid":30324,"hostname":"QUAN02","msg":"End of node method click"}
+{"level":30,"time":"2025-03-11T21:18:25.556Z","pid":30324,"hostname":"QUAN02","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-03-11T21:18:25.556Z","pid":30324,"hostname":"QUAN02","msg":"Strict mode is enabled, find Locator with //*[@aria-label='CNH'] in page."}
+{"level":30,"time":"2025-03-11T21:18:25.575Z","pid":30324,"hostname":"QUAN02","msg":"End of node method fillText"}
+{"level":30,"time":"2025-03-11T21:18:25.580Z","pid":30324,"hostname":"QUAN02","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-03-11T21:18:25.580Z","pid":30324,"hostname":"QUAN02","msg":"Strict mode is enabled, find Locator with //*[@aria-label='Validade'] in page."}
+{"level":30,"time":"2025-03-11T21:18:25.611Z","pid":30324,"hostname":"QUAN02","msg":"End of node method fillText"}
+{"level":30,"time":"2025-03-11T21:18:25.616Z","pid":30324,"hostname":"QUAN02","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-03-11T21:18:25.616Z","pid":30324,"hostname":"QUAN02","msg":"Strict mode is enabled, find Locator with //*[@aria-label='RG'] in page."}
+{"level":30,"time":"2025-03-11T21:18:25.640Z","pid":30324,"hostname":"QUAN02","msg":"End of node method fillText"}
+{"level":30,"time":"2025-03-11T21:18:25.645Z","pid":30324,"hostname":"QUAN02","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-03-11T21:18:25.645Z","pid":30324,"hostname":"QUAN02","msg":"Strict mode is enabled, find Locator with //*[@aria-label='Orgão emissor'] in page."}
+{"level":30,"time":"2025-03-11T21:18:25.663Z","pid":30324,"hostname":"QUAN02","msg":"End of node method fillText"}
+{"level":30,"time":"2025-03-11T21:18:25.669Z","pid":30324,"hostname":"QUAN02","msg":"Start of node method click"}
+{"level":30,"time":"2025-03-11T21:18:25.669Z","pid":30324,"hostname":"QUAN02","msg":"Strict mode is enabled, find Locator with //*[@role='radio']//span[text()='Cliente'] in page."}
+{"level":30,"time":"2025-03-11T21:18:25.776Z","pid":30324,"hostname":"QUAN02","msg":"End of node method click"}
+{"level":30,"time":"2025-03-11T21:18:25.779Z","pid":30324,"hostname":"QUAN02","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-03-11T21:18:25.779Z","pid":30324,"hostname":"QUAN02","msg":"Strict mode is enabled, find Locator with //textarea[@class=\"q-field__native q-placeholder\"] in page."}
+{"level":30,"time":"2025-03-11T21:18:25.794Z","pid":30324,"hostname":"QUAN02","msg":"End of node method fillText"}
+{"level":30,"time":"2025-03-11T21:18:25.799Z","pid":30324,"hostname":"QUAN02","msg":"Start of node method click"}
+{"level":30,"time":"2025-03-11T21:18:25.799Z","pid":30324,"hostname":"QUAN02","msg":"Strict mode is enabled, find Locator with text=Salvar in page."}
+{"level":30,"time":"2025-03-11T21:18:25.878Z","pid":30324,"hostname":"QUAN02","msg":"End of node method click"}
+{"level":30,"time":"2025-03-11T21:18:25.886Z","pid":30324,"hostname":"QUAN02","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-11T21:18:25.891Z","pid":30324,"hostname":"QUAN02","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-11T21:18:25.894Z","pid":30324,"hostname":"QUAN02","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-11T21:18:25.895Z","pid":30324,"hostname":"QUAN02","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-11T21:18:25.897Z","pid":30324,"hostname":"QUAN02","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-11T21:18:25.898Z","pid":30324,"hostname":"QUAN02","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-11T21:18:25.901Z","pid":30324,"hostname":"QUAN02","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-11T21:18:25.907Z","pid":30324,"hostname":"QUAN02","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-11T21:18:25.910Z","pid":30324,"hostname":"QUAN02","msg":"Changed active context"}
+{"level":30,"time":"2025-03-11T21:18:25.910Z","pid":30324,"hostname":"QUAN02","msg":"Changing current active page: page=0c7247d6-bb63-4c42-af73-12ab6ac357e8"}
+{"level":30,"time":"2025-03-11T21:18:25.910Z","pid":30324,"hostname":"QUAN02","msg":"Changed active page"}
+{"level":30,"time":"2025-03-11T21:18:25.913Z","pid":30324,"hostname":"QUAN02","msg":"Start of node method closeContext"}
+{"level":30,"time":"2025-03-11T21:18:25.930Z","pid":30324,"hostname":"QUAN02","msg":"Removed page=78fb10cd-884c-4513-8e06-e52f01a88c15 from context=c78740a2-45c2-44ed-82b5-47d062884752 page stack"}
+{"level":30,"time":"2025-03-11T21:18:25.960Z","pid":30324,"hostname":"QUAN02","msg":"End of node method closeContext"}
+{"level":30,"time":"2025-03-11T21:18:25.975Z","pid":30324,"hostname":"QUAN02","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-11T21:18:25.976Z","pid":30324,"hostname":"QUAN02","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-11T21:18:26.369Z","pid":30324,"hostname":"QUAN02","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2025-03-11T21:18:26.566Z","pid":30324,"hostname":"QUAN02","msg":"End of node method closeAllBrowsers"}
