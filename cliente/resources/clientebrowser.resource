@@ -5,7 +5,7 @@ Library   Browser
 
 *** Keywords ***
 Abrir aplicação
-    Open Browser    https://irental-qa.app.sisloc.com/login?redirect=/&message     chromium    headless=False    
+    Open Browser    https://irental-qa.app.sisloc.com/login?redirect=/&message     chromium    headless=True    
     Set Viewport Size    1366    768
     Fill Text   //*[@name="email"]    samuel.silva@sisloc.com.br
     Fill Text   //*[@name="password"]    @Siloc00*
