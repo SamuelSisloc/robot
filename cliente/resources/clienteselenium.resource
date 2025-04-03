@@ -5,7 +5,7 @@ Library           SeleniumLibrary
 
 *** Keywords ***
 Abrir aplicação
-    Open Browser    https://irental-qa.app.sisloc.com/login?redirect=/&message    Chrome    options=add_argument:--headless=new  
+    Open Browser    https://irental-qa.app.sisloc.com/login?redirect=/&message    headlesschrome  
     Maximize Browser Window    
     Wait Until Element Is Enabled    //*[@name="email"]    15
     Input Text    //*[@name="email"]   samuel.silva@sisloc.com.br
